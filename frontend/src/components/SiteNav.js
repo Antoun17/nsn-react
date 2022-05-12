@@ -4,15 +4,12 @@ import ReactBootstrap, {Navbar, Container, NavDropdown, Nav} from 'react-bootstr
 import { Link } from 'react-router-dom'
 
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 
 export default function SiteNav() {
     return (
         <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home">North Shore Now</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
