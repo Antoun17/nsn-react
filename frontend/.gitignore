@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/backend
+/nsn-react/backend
 /.pnp
 .pnp.js
 
